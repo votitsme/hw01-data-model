@@ -1,13 +1,12 @@
 [project]
 name = "hw01-data-model"
 version = "0.1.0"
-description = "ДЗ 1 — Модель данных, CLI, пакетирование"
+description = "ДЗ 1 - Модель данных, CLI, пакетирование"
 requires-python = ">=3.12"
 dependencies = []
 
 [project.scripts]
-# Student fills this in based on their variant
-# Example: my-wc = "hw01.cli:main"
+my-wc = "hw01.cli:main"
 
 [build-system]
 requires = ["hatchling"]
